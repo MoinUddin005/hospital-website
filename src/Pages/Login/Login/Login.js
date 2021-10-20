@@ -6,7 +6,7 @@ import { Link, useHistory , useLocation } from 'react-router-dom';
 
 
 const Login = () => {
-    const { signInUsingGoogle , handleRegistration } = useAuth();
+    const { signInUsingGoogle , newUserLogin } = useAuth();
     const history = useHistory();
     const location = useLocation();
     const Redirect_uri = location.state?.from || "/home";
@@ -16,8 +16,12 @@ const Login = () => {
             history.push(Redirect_uri);
         })
     }
-  const { register, handleSubmit, watch, formState: { errors } } = useForm();
-  const onSubmit = data => console.log(data);
+    const { register, handleSubmit, watch, formState: { errors } } = useForm();
+    const onSubmit = data => {
+        const {email, password} = data;
+        console.log(email, password)
+        newUserLogin(email, password)
+    };
     
     return (
      <div className="login-from">
