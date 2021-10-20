@@ -29,13 +29,13 @@ function App() {
                   <Home></Home>
               </Route>
 
-              <Route path="/ourdoctors">
+              <Privateroute path="/ourdoctors">
                   <Ourdoctors></Ourdoctors>
-              </Route>
+              </Privateroute>
 
-              <Route path="/aboutus">
+              <Privateroute path="/aboutus">
                   <Aboutus></Aboutus>
-              </Route>
+              </Privateroute>
 
               <Route path="/contact">
                   <Contact></Contact>

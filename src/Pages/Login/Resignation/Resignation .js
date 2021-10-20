@@ -18,6 +18,7 @@ const Resignation  = () => {
     if(password === reEnterPass){
       if(password.length >= 6){
         newAccount(email, password, name)
+        alert("wow reg complete");
       }else{
         setPasswordValidation('Password must be at last 6 character')
       }

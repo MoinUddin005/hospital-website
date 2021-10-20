@@ -68,16 +68,8 @@ const useFirebase = () =>{
 
     const newUserLogin = (email, password) => {
       console.log('this is form newUserLogin');
-      signInWithEmailAndPassword(auth, email, password)
-      .then(result => {
-          const user = result.user;
-          setuser(user);
-         
-          console.log(user);
-        })
-        .catch((error) => {
-          console.log(error.message)
-        });
+       return signInWithEmailAndPassword(auth, email, password)
+      
     }
 
     return{
@@ -87,7 +79,8 @@ const useFirebase = () =>{
         isLoading,
         setisLoading,
         newAccount,
-        newUserLogin
+        newUserLogin,
+        setuser
     }
 }
 
