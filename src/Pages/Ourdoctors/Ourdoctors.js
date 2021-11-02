@@ -5,7 +5,7 @@ import { Container, Row } from 'react-bootstrap';
 const Ourdoctors = () => {
     const [doctors, setdoctors] = useState([])
     useEffect(() => {
-        fetch('doctor.json')
+        fetch('http://localhost:5000/services')
             .then(res => res.json())
             .then(data => setdoctors(data));
     }, [])

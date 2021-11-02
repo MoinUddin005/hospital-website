@@ -49,7 +49,8 @@ const Footer = () => {
            
             <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
             
-              <h6 className="text-uppercase fw-bold"><img style={{height:50}} src={logo} alt="" /> Attentive Hospital</h6>
+              <h6 className="text-uppercase fw-bold"><img style={{height:50}} src={logo} alt="" /> Dream Holidays
+</h6>
               <hr
                   className="mb-4 mt-0 d-inline-block mx-auto"
                   style={{"width": "300px","background-color": "#263e48", "height": "2px"}}
@@ -61,7 +62,7 @@ const Footer = () => {
   
                   />
               <p>
-              Attentive Hospital mission is to providing excellent care for patient lays out the vision for the hospital that includes medical services structured around the needs of patients.
+              I love travelling and I love languages, so imagine my excitement when I came across a treasure trove of travel words and wanderlust synonyms that describe how we feel before, during, and after we travel. Just like a photo can’t fully capture what it feels like to stand on the edge of a fjord
               </p>
             </div>
           

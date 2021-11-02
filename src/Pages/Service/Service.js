@@ -5,7 +5,7 @@ import { Card, Col } from 'react-bootstrap';
 
 const Service = ({ service }) => {
     // const {service} = props;
-    const { id, title, img , detalis } = service;
+    const { _id,description, img , name , price} = service;
     return (
         <div>
         
@@ -13,9 +13,11 @@ const Service = ({ service }) => {
           <Card className="shadow h-100">
             <Card.Img variant="top" src={img} />
             <Card.Body>
-                <Card.Title> <b>{title}</b> </Card.Title>
+                <Card.Title> <b>{name}</b> </Card.Title>
+                <p>{description}</p>
+                <p>${price}</p>
                 
-                  <Link to={`/doctors/${id}`}>
+                  <Link to={`/details/${_id}`}>
                   <button type="button" className=" w-50 btn btn-outline-primary">Detils</button>
                   </Link>
 

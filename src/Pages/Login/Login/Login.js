@@ -35,29 +35,16 @@ const Login = () => {
     
     return (
      <div className="login-from">
-                <div>
-                    <br />
+                <div className="card border-primary mb-3">
                     <h2><b>Login</b></h2>
-                    <br />
-
-                    <form onSubmit={handleSubmit(onSubmit)}>
-
-                            <input type="email" className="form-control " {...register("email")} id="floatingInput"  placeholder="Your Email"/>
-                            <br />
-                            <input type="password" className="form-control " name="" id="" placeholder="Your password" {...register("password")} />
-                            <br />
-                            
-                        <input className="btn btn-secondary" type="submit" value="submit"/>
-
-                    </form>
                     <hr />
-                    <p>Resignation now ? <Link to="/resignation">create Account</Link></p>
-                    <div>-----------or-------------</div>
                     <br />
-                    <button type="button" className=" mb-lg-5 btn btn-outline-success"
+
+                    
+                    <button type="button" className=" mb-lg-3 btn btn-outline-success"
                     onClick={handleGoogleLogin}
-                    > <i className="fab fa-google"></i> Googe sing in</button>
-                </div>
+                    > <i className="fab fa-google"></i> Google sing in</button>
+              </div>
        </div>
  
     );

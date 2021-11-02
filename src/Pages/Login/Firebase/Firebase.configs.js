@@ -1,10 +1,10 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyCNPSnfFMl_eoUJFTj8pbdvu8OnCoyfX7c",
-    authDomain: "attentive-hospital.firebaseapp.com",
-    projectId: "attentive-hospital",
-    storageBucket: "attentive-hospital.appspot.com",
-    messagingSenderId: "514722976103",
-    appId: "1:514722976103:web:7479804d6f3f783f051fc2"
-  };
+  apiKey: "AIzaSyAtqGhaYcdkYnve0MGN1AGQ6L9Ja_0FM_8",
+  authDomain: "dream-holidays-b4099.firebaseapp.com",
+  projectId: "dream-holidays-b4099",
+  storageBucket: "dream-holidays-b4099.appspot.com",
+  messagingSenderId: "873023083845",
+  appId: "1:873023083845:web:e818863c921d8e4c8a9a2c"
+};
 
   export default firebaseConfig;

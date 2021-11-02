@@ -1,9 +1,9 @@
 import React from 'react';
 import './Banner.css';
 import { Carousel } from 'react-bootstrap';
-const img1 = "https://i.ibb.co/ZM2jKn4/5438645.png";
-const img2 = "https://i.ibb.co/cyZDLrw/doctor-standing-with-folder-stethoscope.png";
-const img3 = "https://i.ibb.co/S0sL53s/doctor-with-stethoscope-hands-hospital-background.png";
+const img1 = "https://i.ibb.co/JnR96qt/pic1.png";
+const img2 = "https://i.ibb.co/8NHp9yY/pic2.png";
+const img3 = "https://i.ibb.co/6tPNvV9/pic3.png";
 
 
 const Banner = () => {
